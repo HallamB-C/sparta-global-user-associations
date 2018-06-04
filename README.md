@@ -1,24 +1,20 @@
-# README
+Ruby user associations
+This is a project done for Sparta global to practice using User association in Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To use this project git pull or clone the repository to your computer
 
-Things you may want to cover:
+If you are in sparta-COYI-rails-project change directory into COYI.
 
-* Ruby version
+If this is the first time using the project run
 
-* System dependencies
+rails db:drop db:create db:migrate
+Otherwise run
 
-* Configuration
+rails db:migrate
+Then run
 
-* Database creation
+bundle install
+To add the needed gems. Type
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s
+into the console to run the server. You can connect to it by going to localhost:3000 in your browser. You will have to make an accout to test the authentication.
